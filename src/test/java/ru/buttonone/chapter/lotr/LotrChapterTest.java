@@ -35,7 +35,7 @@ public class LotrChapterTest {
                 .jsonPath()
                 .getList("docs", Chapter.class);
 
-        System.out.println(chapterList);
+//        System.out.println(chapterList);
 
         assertThat(chapterList, Matchers.contains(
                 new Chapter("A Long-expected Party"),           //0
